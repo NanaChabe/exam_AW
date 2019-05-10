@@ -1,0 +1,23 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  font-size:16px;
+}
+.primer .row:first-child {position: relative;}
+.moreinfo p{display: inline;}
+.complement{z-index:3;background-color: #fff;position: absolute; border:none;}
+.mas{-webkit-box-shadow: 0 1px 25px 10px #C7C7C7; box-shadow: 0 1px 25px 10px #C7C7C7;}
+.closer{font-size: 2em;}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {  }
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+  .complement{position:relative;border-left: 1px solid #C7C7C7;}
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) { }
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { }
